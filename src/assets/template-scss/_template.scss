@@ -1,0 +1,462 @@
+html, body,
+.body {
+  background: #d6d6d5;
+  background-color: #d6d6d5;
+}
+/////// Header ////////////////////////////////////////////////////////////
+.header {
+  background: #c3e8cb;
+  background-color: #c3e8cb;
+  text-align: center;
+  vertical-align: middle !important;
+  .logo {
+    padding-top: 25px !important;
+    padding-right: 25px !important;
+    padding-bottom: 25px !important;
+    padding-left: 25px !important;
+    vertical-align: middle;
+    img {
+      width: 167px !important;
+      // height: 27px !important;
+    }
+  }
+  .head-info {
+    vertical-align: middle !important;
+    padding-top: 25px !important;
+    padding-right: 25px !important;
+    padding-bottom: 25px !important;
+    padding-left: 25px !important;
+    .total, .date {
+      font-size: 12px;
+      font-weight: 300;
+      text-align: right !important;
+      display: block;
+    }
+  }
+}
+.sub-header {
+  background: #c3e8cb;
+  background-color: #c3e8cb;
+  .intro-text {
+    vertical-align: middle !important;
+    padding-top: 25px !important;
+    padding-right: 25px !important;
+    padding-bottom: 25px !important;
+    padding-left: 12px !important;
+    .greeting {
+      font-size: 42px;
+      font-weight: 500;
+      line-height: 38px;
+      padding-bottom: 15px;
+    }
+    .location {
+      font-size: 20px;
+      font-weight: 300;
+      padding-bottom: 10px;
+    }
+  }
+  .order-image {
+    vertical-align: bottom !important;
+    text-align: right !important;
+    padding-top: 0 !important;
+    padding-right: 0 !important;
+    padding-bottom: 0 !important;
+    padding-left: 25px !important;
+    img {
+      max-width: 144px;
+      max-height: 144px;
+      width: 100%;
+      margin-left: auto;
+    }
+  }
+}
+//////////// OrderList ///////////////////////////////////////////////////////////
+.order-total {
+  margin-top: 45px;
+  .title-box{
+    padding-left: 20px !important;
+    vertical-align: middle !important;
+    padding-bottom: 0 !important;
+    .title {
+      font-size: 45px;
+      font-weight: 500;
+    }
+  }
+  .price-box {
+    vertical-align: middle !important;
+    padding-bottom: 0 !important;
+    .price {
+      font-size: 45px;
+      font-weight: 500;
+      text-align: right;
+    }
+
+  }
+}
+.border-row {
+  vertical-align: middle !important;
+  .border-col {
+    padding-top: 25px !important;
+    padding-bottom: 25px !important;
+      .border {
+        content: "";
+        height: 1px;
+        width: 570px;
+        line-height: 0;
+        background: #bdbdbd;
+        background-color: #bdbdbd;
+        display: block;
+      }
+    }
+  }
+.meal-total {
+  // margin-top: 14px;
+  .meal-title {
+    padding-left: 20px !important;
+    vertical-align: middle !important;
+    .title {
+      font-size: 16px;
+      font-weight: 500;
+      color: #000000;
+      line-height: 28px;
+      .number {
+        margin-right: 15px;
+        border: 1px solid #e0e0e0;
+        color: #1f1f1f;
+        text-align: center;
+        font-size: 14px;
+        width: 24px;
+        display: inline-block;
+        line-height: 24px;
+      }
+    }
+  }
+  .meal-price {
+    vertical-align: middle !important;
+    .price {
+      font-size: 18px;
+      font-weight: 500;
+      text-align: right;
+      color: #000000;
+    }
+  }
+}
+.meal-options {
+  .option-title {
+    vertical-align: middle !important;
+    padding-left: 0 !important;
+    padding-bottom: 0 !important;
+    .title {
+      font-size: 14px;
+      font-weight: 400;
+      text-align: left;
+      color: #000000;
+      line-height: 28px;
+      &.price {
+        color: #707070;
+        line-height: 20px;
+      }
+    }
+  }
+}
+//////////// Charge breakdown ///////////////////////////////////////////////////////////
+.charge-breakdown {
+  .title-space {
+    padding-left: 20px !important;
+    vertical-align: middle !important;
+    padding-bottom: 0 !important;
+    .title {
+      font-size: 16px;
+      font-weight: 400;
+      color: #000000;
+      line-height: 28px;
+      padding-top: 5px !important;
+      padding-bottom: 5px !important;
+      padding-right: 5px;
+    }
+  }
+  .price-space {
+    vertical-align: middle !important;
+    padding-bottom: 0 !important;
+    .price {
+      font-size: 16px;
+      font-weight: 400;
+      color: #000000;
+      text-align: right;
+      padding-top: 5px !important;
+      padding-bottom: 5px !important;
+    }
+  }
+}
+//////////// Card Charge ///////////////////////////////////////////////////////////
+.card-header {
+  .title-space {
+    padding-left: 20px !important;
+    vertical-align: middle !important;
+    padding-bottom: 0 !important;
+    .title {
+      font-size: 16px;
+      font-weight: 400;
+      color: #000000;
+      line-height: 28px;
+      padding-top: 5px !important;
+      padding-bottom: 5px !important;
+      padding-right: 5px;
+    }
+  }
+}
+
+.card-charged {
+  .card-details {
+    .visa-icon {
+      vertical-align: middle !important;
+      padding-bottom: 0 !important;
+      img {
+        width: 32px;
+        vertical-align: middle !important;
+        // margin: 0 auto;
+      }
+    }
+    .link-space {
+      vertical-align: middle !important;
+      padding-bottom: 0 !important;
+      padding-left: 0 !important;
+      .sm-border{
+        content: "";
+        height: 16px;
+        width: 2px;
+        line-height: 0;
+        background-color: #bdbdbd;
+        background: #bdbdbd;
+        display: inline-block;
+        vertical-align: middle !important;
+        text-align: center !important;
+        margin-right: 10px;
+      }
+      .link {
+        text-decoration: none;
+        color: #000000;
+        font-size: 16px;
+        vertical-align: middle !important;
+        &:hover {
+          color: #1e58ff;
+        }
+      }
+    }
+    .card-digits {
+      vertical-align: middle !important;
+      padding-bottom: 0 !important;
+      padding-left: 0 !important;
+      padding-right: 0 !important;
+      .digits {
+        font-size: 16px;
+        font-weight: 400;
+        color: #000000;
+        text-align: center !important;
+      }
+    }
+  }
+
+  .price-space {
+    vertical-align: middle !important;
+    padding-bottom: 0 !important;
+    .price {
+      font-size: 16px;
+      font-weight: 400;
+      color: #000000;
+      text-align: right;
+      padding-top: 5px !important;
+      padding-bottom: 5px !important;
+    }
+  }
+}
+//////////// Terms text ///////////////////////////////////////////////////////////
+.terms-text {
+  .text-area {
+    padding-left: 16px !important;
+    .text {
+      color: #000000;
+      font-size: 12px;
+      font-weight: 300px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+    }
+  }
+}
+//////////// Delivered ///////////////////////////////////////////////////////////
+.delivery-bg {
+  background-color: #f8f8fa;
+  background: #f8f8fa;
+}
+.delivery-title {
+  .title-area {
+    padding-left: 16px !important;
+    vertical-align: middle !important;
+    .title {
+      color: #000000;
+      font-size: 22px;
+      font-weight: 500;
+      padding-top: 30px;
+      padding-bottom: 15px;
+    }
+  }
+}
+.delivery-location {
+  padding-top: 0 !important;
+  .address-area {
+    vertical-align: middle !important;
+    padding-left: 16px !important;
+    padding-right: 0 !important;
+    .title {
+      font-size: 16px;
+      font-weight: 600;
+      color: #000000;
+      line-height: 35px;
+    }
+    .address {
+      font-size: 16px;
+      font-weight: 400;
+      color: #000000;
+      padding-bottom: 20px !important;
+    }
+  }
+}
+.delivery-driver {
+  .driver-title {
+    padding-left: 16px !important;
+    .title {
+      font-size: 16px;
+      font-weight: 600;
+      color: #000000;
+      padding-top: 7px;
+      padding-left: 0;
+      padding-bottom: 12px;
+      padding-right: 0;
+    }
+  }
+}
+
+.rate-btn {
+  .rate-btn-col {
+    padding-left: 16px !important;
+    vertical-align: middle !important;
+    .btn {
+      text-decoration: none;
+      background-color: #06c167;
+      background: #06c167;
+      border-color: #06c167;
+      display: inline-block;
+      max-width: 135px;
+      text-align: center;
+      padding-left: 16px!important;
+      padding-right: 16px!important;
+      padding-bottom: 16px!important;
+      padding-top: 16px!important;
+      .text {
+        color: #000000;
+        font-weight: 600;
+        display: inline-block;
+        font-size: 14px;
+      }
+      .arrow {
+        display: inline-block;
+        float: right;
+        padding-top: 2px;
+        img {
+          width: 14px;
+          height: 13px;
+          margin-top: 2px;
+          margin-left: 10px;
+        }
+      }
+    }
+  }
+}
+//////////// Footer ///////////////////////////////////////////////////////////
+.sub-footer {
+  background-color: #06c167;
+  background: #06c167;
+  margin-top: 20px;
+  vertical-align: middle !important;
+  .link-col {
+    vertical-align: middle !important;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    .menu-link {
+      text-decoration: none;
+      color: #000000;
+      font-size: 14px;
+      font-weight: 600;
+      padding-top: 2px;
+      padding-bottom: 2px;
+      padding-left: 0;
+      padding-right: 0;
+      display: inline-block;
+      .arrow {
+        display: inline-block;
+        float: right;
+        padding-top: 2px;
+        img {
+          width: 14px;
+          height: 13px;
+          margin-top: 2px;
+          margin-left: 10px;
+        }
+      }
+    }
+  }
+  .link-border {
+    vertical-align: middle !important;
+    text-align: center !important;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    .border {
+      content: "";
+      height: 20px;
+      width: 1px;
+      line-height: 0;
+      background-color: #000000;
+      background: #000000;
+      display: inline-block;
+    }
+  }
+}
+.footer-logo {
+  background-color: #000000;
+  background: #000000;
+  vertical-align: middle;
+  .img-col {
+    padding-top: 40px;
+    padding-bottom: 30px;
+    img {
+      width: 69px;
+      height: 24px;
+    }
+  }
+}
+.bg {
+  background-color: #000000;
+  background: #000000;
+}
+.footer-bottom {
+  background-color: #000000;
+  background: #000000;
+  .footer-links {
+      padding-top: 30px;
+    a {
+      font-size: 12px;
+      color: #ffffff;
+      text-decoration: none;
+      line-height: 38px;
+      display: block;
+    }
+  }
+  .footer-address {
+    padding-top: 30px;
+    padding-right: 10px;
+    span {
+      font-size: 12px;
+      color: #9d9da3;
+    }
+  }
+}
